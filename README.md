@@ -52,7 +52,6 @@ Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems ar
 ### Taxonomy of Evaluation
 
 #### Scope — what is evaluated
-  *(output quality, cost, agentic capabilities, reliability, safety & ethics, user experience)*
 
 * **Output quality:**
     * `14` [Yuan Z, Li M, Liu C, Han F, Huang H, Dai HN. Chat with MES: LLM-driven user interface for manipulating garment manufacturing system through natural language. J Manuf Syst 2025;80:1093–107.](https://doi.org/10.1016/J.JMSY.2025.02.008)
@@ -109,7 +108,6 @@ Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems ar
     * `36` [Zhou L, Zhang L, Chen X, Ding Y, Wang Y. The Heuristic Design Innovation Approach for Data-Integrated Large Language Model. Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 2024;14736 LNAI:170–95.](https://doi.org/10.1007/978-3-031-60615-1_12)
 
 #### **Methodology — how evaluation is performed**
-  *(data & benchmarks, environment, evaluator, scale, frameworks & platforms)*
 
 * Data & benchmarks: 
     * `14` [Yuan Z, Li M, Liu C, Han F, Huang H, Dai HN. Chat with MES: LLM-driven user interface for manipulating garment manufacturing system through natural language. J Manuf Syst 2025;80:1093–107.](https://doi.org/10.1016/J.JMSY.2025.02.008) `Synthetic benchmark`
@@ -161,13 +159,9 @@ Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems ar
     * `41` [Lin CY, Tsai TH, Tseng TL. Generative AI for Intelligent Manufacturing Virtual Assistants in the Semiconductor Industry. IEEE Robot Autom Lett 2025;10:4132–9.](https://doi.org/10.1109/LRA.2025.3544506) `Pilot deployment`
 
 * Frameworks & platforms: 
-    * `43` [openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks. n.d.](https://github.com/openai/evals)
-    * `44` [Vertex AI Platform | Google Cloud n.d..](https://cloud.google.com/vertex-ai)
-    * `45` [LangGraph Platform n.d. .](https://www.langchain.com/langgraph-platform)
-    * `46` [AI Agents – Amazon Bedrock Agents – AWS n.d.](https://aws.amazon.com/bedrock/agents/)
+    * _
 
 #### **Analysis — why systems fail and their impact**
-  *(failure-mode analysis, data type analysis, business/operational impact)*
 
 * Failure modes: 
     * `14` [Yuan Z, Li M, Liu C, Han F, Huang H, Dai HN. Chat with MES: LLM-driven user interface for manipulating garment manufacturing system through natural language. J Manuf Syst 2025;80:1093–107.](https://doi.org/10.1016/J.JMSY.2025.02.008)

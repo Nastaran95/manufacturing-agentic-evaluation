@@ -8,10 +8,10 @@
 
 This repository provides a comprehensive and organized list of peer-reviewed papers and preprints focusing on **evaluation methodologies for agentic AI systems in manufacturing**.
 It is based on the paper:
-**“Evaluating Agentic AI Systems in Manufacturing: A Review of Taxonomy, Challenges, and Future Directions”**
-*(Nastaran Moradzadeh Farid, Sara Shafiee – submitted for review to the 33rd CIRP Conference on Life Cycle Engineering, 2026)*
+**"Evaluating Agentic AI Systems in Manufacturing: A Review of Taxonomy, Challenges, and Future Directions"**
+*(Nastaran Moradzadeh Farid, Sara Shafiee – accepted at the 2026 International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML 2026), March 20-22, 2026, Tokyo, Japan)*
 
-Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems are rapidly transforming the landscape of intelligent automation by enabling autonomous decision-making, planning, and interaction with complex environments. As these systems grow in capability and complexity, evaluating their performance becomes increasingly critical, yet remains a substantial challenge. In manufacturing, where agentic AI is increasingly applied to tasks such as predictive maintenance and quality control, standardized evaluation frameworks are still lacking. Prior research has proposed structured categories for this purpose in general scope, such as analyzing submodules like tool use, reasoning, memory, and self-learning, or evaluating overall high-level performance. In this paper, we aim to review the evaluation approaches of agentic AI systems, with a specific focus on applications in manufacturing and studies released between 2024-2025 and proposes a three-dimensional taxonomy spanning scope, methodology, and analysis. Reviewing 30+ studies, we find evaluations are mostly small-scale proofs of concept with limited metrics, while reliability, safety, and large-scale benchmarking are overlooked. We propose a taxonomy and a reporting checklist to improve reproducibility and transparency. Our synthesis highlights gaps and offers guidelines for future industrial pilots.
+Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems are rapidly transforming the landscape of intelligent automation by enabling autonomous decision-making, planning, and interaction with complex environments. As these systems grow in capability and complexity, evaluating their performance becomes increasingly critical, yet remains a substantial challenge. In manufacturing, where agentic AI is increasingly applied to tasks such as predictive maintenance and quality control, standardized evaluation frameworks are still lacking. Prior research has proposed structured categories for this purpose in general scope, such as analyzing submodules like tool use, reasoning, memory, and self-learning, or evaluating overall high-level performance. In this paper, we aim to review the evaluation approaches of agentic AI systems, with a specific focus on applications in manufacturing and studies released between 2024-2025 and proposes a three-dimensional taxonomy spanning scope, methodology, and analysis. Reviewing 31 studies, we find evaluations are mostly small-scale proofs of concept with limited metrics, while reliability, safety, and large-scale benchmarking are overlooked. We propose a manufacturing-oriented taxonomy and reporting checklist that synthesize existing evaluation practices into a standardized framework for reproducibility and transparency. Our synthesis highlights gaps and offers guidelines for future industrial pilots.
 
 ![categorization](figures/Picture10_png.png)
 ![statitics](statistics/overall_percent_of_total.svg)
@@ -21,6 +21,7 @@ Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems ar
 ## 📚 Table of Contents
 
 - [📖 Overview](#-overview)
+- [🔍 Mini Case Study: Evaluation Checklist](#-mini-case-study-evaluation-checklist)
 - [🗂 Paper List](#-paper-list)
     - [Surveys and Reviews](#surveys-and-reviews)
     - [Taxonomy of Evaluation](#taxonomy-of-evaluation)
@@ -28,6 +29,53 @@ Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems ar
         - [Methodology — how evaluation is performed](#methodology--how-evaluation-is-performed)
         - [Analysis — why systems fail and their impact](#analysis--why-systems-fail-and-their-impact)
 - [📌 Citation](#-citation)
+---
+
+## 🔍 Mini Case Study: Evaluation Checklist
+
+To address the need for practical guidance on applying the proposed taxonomy, we provide a **mini case study** demonstrating how to evaluate an agentic AI system in manufacturing using our three-dimensional framework.
+
+### Quick Reference Checklist
+
+When evaluating an agentic AI system in manufacturing, ensure you address the following dimensions:
+
+#### **I. SCOPE — What is evaluated**
+
+- [ ] **Output Quality**: Accuracy, correctness, task completion rates
+- [ ] **Cost**: Latency, token usage, energy consumption, operational costs
+- [ ] **Agentic Capabilities**: Planning/reasoning, memory, tool use, self-reflection, multi-agent coordination
+- [ ] **Reliability**: Robustness, error handling, hallucination detection, stability
+- [ ] **Safety and Ethics**: Guarded tool use, privacy compliance, fairness, transparency, regulatory compliance
+- [ ] **User Experience**: Usability, trust, perceived helpfulness, expert validation, adoption rates
+
+#### **II. METHODOLOGY — How evaluation is performed**
+
+- [ ] **Data and Benchmarks**: Dataset type, distribution, benchmark design, reproducibility
+- [ ] **Environment**: Simulation, controlled lab, hybrid testbed, or industrial pilot
+- [ ] **Evaluator**: Automated metrics, human experts, LLM-as-judge, or hybrid approaches
+- [ ] **Scale**: Small/lab-scale, mid-scale hybrid, or pilot deployment; longitudinal evaluation
+- [ ] **Frameworks and Platforms**: Evaluation tools, monitoring infrastructure, reproducibility
+
+#### **III. ANALYSIS — Why systems fail and their impact**
+
+- [ ] **Failure-Mode Analysis**: Error categorization, failure frequency, root causes, mitigation strategies
+- [ ] **Data Type Analysis**: Data distribution, quality assessment, bias identification, generalizability
+- [ ] **Impact Analysis**: Production impact (downtime, throughput), cost impact, quality impact, safety, sustainability, business outcomes
+
+### Full Case Study
+
+For a detailed worked example applying this checklist to an **imaginary predictive maintenance agent**, see:
+
+📄 **[Case Study: Evaluation Checklist](case_study_evaluation_checklist.md)**
+
+The case study demonstrates:
+- How to structure an evaluation according to the proposed taxonomy
+- Example metrics and evaluation approaches for each dimension
+- A comprehensive checklist with concrete examples
+- Recommendations for future evaluations
+
+This case study provides a practical demonstration of how the taxonomy and reporting checklist can be applied to evaluate manufacturing agentic AI systems.
+
 ---
 
 ## 🗂 Paper List
@@ -189,4 +237,6 @@ Large Language Models (LLMs) and agentic Artificial Intelligence (AI) systems ar
 
 If you use this repository or its organization in your work, please cite:
 
-**TBD** (preprint/DOI link to be added upon publication).
+**Moradzadeh Farid, N., & Shafiee, S. (2026). "Evaluating Agentic AI Systems in Manufacturing: A Review of Taxonomy, Challenges, and Future Directions."** *2026 International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML 2026)*, March 20-22, 2026, Tokyo, Japan. IEEE Conference Proceedings (to be published in IEEE Xplore).
+
+Conference website: [https://aaiml.net/index.html](https://aaiml.net/index.html)
